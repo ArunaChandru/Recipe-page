@@ -1,0 +1,93 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");                      
+
+
+body{
+    background-color: rgb(255, 214, 221);
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin: 10vh auto;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.preapreTime{
+    background-color: rgb(255, 235, 248);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+h2,h3{
+    margin-bottom:0;
+    padding-left: 20px;
+}
+
+/* Highligthing the headings */
+
+li::marker,h2,h3,th{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+span{
+    color:rgb(58, 50, 50);
+    font-weight: bold;
+}
+
+/* To get horizontal line*/
+
+.horizontal_line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(194, 194, 194);
+    margin-top:12px;
+}
+.nutrition{
+    padding-left: 20px;
+}
+
+/* style for tables*/
+
+table{
+    padding-left: 30px;
+}
+td,th{
+    padding:10px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+/*Style for footer*/
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Media Query*/
+
+@media screen and (max-width: 768px) {
+    body {
+        min-height: fit-content;
+        background-color: white;
+    }
+
+    .container {
+        max-width: none;
+        margin: 0;
+        border-radius: 0;
+    }
+}
